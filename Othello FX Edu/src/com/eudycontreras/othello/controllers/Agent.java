@@ -85,7 +85,7 @@ public abstract class Agent implements IAgentMove {
 	}
 
 	public void resetCounters() {
-//		this.search8
+//		this.searchDepth = 0;
 		this.reachedLeafNodes = 0;
 		this.nodesExamined = 0;
 		this.prunedCounter = 0;

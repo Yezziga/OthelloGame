@@ -217,7 +217,7 @@ public class AgentController {
 			return AgentController.findRandomMove(gameState, playerTurn);
 		}
 
-		return AgentController.findBestMove(gameState, playerTurn);
+		return AgentController.findRandomMove(gameState, playerTurn);
 	}
 	
 	/**
