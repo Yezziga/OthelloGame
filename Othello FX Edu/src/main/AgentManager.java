@@ -59,9 +59,9 @@ public class AgentManager extends Application{
 		new Othello(primaryStage, agent, agent2);
 		
 //		new Othello(primaryStage, new ExampleAgentOne("Agent A"), new ExampleAgentTwo("Agent B"));
-//		new Othello(primaryStage, new ExampleAgentB());
-		//new Othello(primaryStage, new ExampleAgentC());
-		//new Othello(primaryStage, new ExampleAgentD());
+//		new Othello(primaryStage, new ExampleAgentB()); // best move
+		//new Othello(primaryStage, new ExampleAgentC()); // safe move
+		//new Othello(primaryStage, new ExampleAgentD()); // random move
 	}
 
 	public static void main(String[] args) {

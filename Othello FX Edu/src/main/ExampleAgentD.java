@@ -26,7 +26,7 @@ public class ExampleAgentD extends Agent{
 		// TODO Auto-generated constructor stub
 	}
 	
-	private ExampleAgentD(PlayerTurn playerTurn) {
+	ExampleAgentD(PlayerTurn playerTurn) {
 		super(playerTurn);
 		// TODO Auto-generated constructor stub
 	}
